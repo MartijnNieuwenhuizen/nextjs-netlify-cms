@@ -1,0 +1,20 @@
+// Base colors
+$black: #000;
+$black-light: #383838;
+$white: white;
+$gray: lightgray;
+
+// Project colors
+$blue: #d2f1f5;
+$blue-gray-light: #dce5db;
+$blue-gray-dark: #c9d5d2;
+
+$brown: #754e4e;
+$color-brown: #754e4e;
+$orange: #c96b49;
+$color-orange: #c96b49;
+
+$color-primary: $color-orange;
+$color-primary-light: lighten($color-orange, 10);
+$color-primary-lighter: lighten($color-orange, 35);
+$color-secondary: $color-brown;
