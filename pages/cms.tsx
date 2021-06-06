@@ -30,6 +30,7 @@ export default function CMSPage() {
       <script>window.CMS_MANUAL_INIT = true</script>
       <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
       <script src="https://unpkg.com/netlify-cms@^2.6.0/dist/netlify-cms.js" />
+      <meta name="robots" content="noindex,nofollow" />
     </Head>
   )
 }
