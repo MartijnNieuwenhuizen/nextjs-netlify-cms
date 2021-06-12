@@ -1,5 +1,18 @@
 # Nextjs / NetlifyCMS Template
 
+# Setup steps
+
+- Create new repo with this template
+- Connect repo with Netlify
+- Enable Netlify Identity
+  - Go to the Netlify portal > Sites > The new site
+  - Go to Site settings > Identity
+  - Hit `Enable identity`
+  - Update External provider to use GitHub (Default configuration)
+  - Enable Git Gateway
+- Optionally rename the site in Netlify
+  - General > Site Settings > Rename site
+
 ## Install and running the app
 
 Install the app
