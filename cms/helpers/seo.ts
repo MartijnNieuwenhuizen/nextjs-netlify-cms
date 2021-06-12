@@ -2,6 +2,7 @@ export default {
   label: 'SEO',
   name: 'seo',
   widget: 'object',
+  collapsed: true,
   fields: [
     {
       label: 'Pagina titel',
