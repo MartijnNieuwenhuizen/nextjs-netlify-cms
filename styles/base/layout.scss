@@ -3,14 +3,14 @@
  * The space between elements.
  */
 $gaps: (
-  tiny: rem(5),
+  tiny: rem(4),
   tiny-small: rem(8),
-  small: rem(10),
-  small-medium: rem(12),
-  medium: rem(17),
-  medium-large: rem(27),
-  large: rem(38),
-  huge: rem(70),
+  small: rem(12),
+  small-medium: rem(16),
+  medium: rem(20),
+  medium-large: rem(28),
+  large: rem(32),
+  huge: rem(40),
 );
 @function gap($size) {
   @return map-get($gaps, $size);
