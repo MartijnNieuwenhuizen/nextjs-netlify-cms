@@ -1,3 +1,3 @@
 export default interface Hamburger {
-    isCross: boolean;
+  isCross: boolean
 }
