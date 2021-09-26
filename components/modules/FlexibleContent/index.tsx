@@ -3,6 +3,7 @@ import type FlexibleContentInterface from './interface'
 import LargeText from '../../flexibles/LargeText'
 import Text from '../../flexibles/Text'
 import TextMedia from '../../flexibles/TextMedia'
+import RichText from '../../flexibles/RichText'
 
 export default function FlexibleContent({
   sections,
@@ -18,6 +19,9 @@ export default function FlexibleContent({
         }
         if (section.component === 'text-media') {
           return <TextMedia key={`flexible-content-${index}`} {...section} />
+        }
+        if (section.component === 'rich-text') {
+          return <RichText key={`flexible-content-${index}`} {...section} />
         }
 
         return null

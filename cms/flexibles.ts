@@ -1,5 +1,5 @@
 import largeText from '../components/flexibles/LargeText/cms'
-import text from '../components/flexibles/Text/cms'
 import textMedia from '../components/flexibles/TextMedia/cms'
+import richText from '../components/flexibles/RichText/cms'
 
-export default [largeText, text, textMedia]
+export default [richText, largeText, textMedia]
