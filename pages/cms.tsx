@@ -23,14 +23,16 @@ export default function CMSPage() {
     initCMS({
       config: storedConfig,
     })
-  }, [])
+  }, [storedConfig])
 
   return (
     <Head>
+      <meta name="robots" content="noindex,nofollow" />
+
       <script>window.CMS_MANUAL_INIT = true</script>
+      {/* eslint-disable @next/next/no-sync-scripts */}
       <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
       <script src="https://unpkg.com/netlify-cms@^2.6.0/dist/netlify-cms.js" />
-      <meta name="robots" content="noindex,nofollow" />
     </Head>
   )
 }
